@@ -96,7 +96,7 @@ echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt
 	<meta itemprop="description" content="Linux 용어 현재 위치 확인 1. 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 pwd C:/Users/sings/OneDrive/Desktop/test ## 바탕화면으로 이동 - `cd` 명령어로 원하는 디렉터로 이동 ```bash cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 ls 숨김 파일 포함, 상세 정보까지 보기 ls -al 2.폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 mkdir로 새로운 폴더 생성 mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) mkdir -p linux_practice/src/utils 만든 폴더로 이동 cd linux_practice 상위 폴더로 이동하기 cd .. 3.파일 만들기 및 내용 확인 빈 파일 만들기 (touch) touch로 빈 파일 생성 cd ~개인경로/linux_practice touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 echo &#34;Hello, Linux!&#34; &gt; hello.txt echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt *echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음 *꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음">
 	<meta itemprop="datePublished" content="2026-05-28T15:00:00+09:00">
 	<meta itemprop="dateModified" content="2026-05-28T15:00:00+09:00">
-	<meta itemprop="wordCount" content="275">
+	<meta itemprop="wordCount" content="283">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Blog Post 2_20260528) AI Lessons from 이어드림스쿨 - Linux Basics">
 	<meta name="twitter:description" content="Linux 용어 현재 위치 확인 1. 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 pwd C:/Users/sings/OneDrive/Desktop/test ## 바탕화면으로 이동 - `cd` 명령어로 원하는 디렉터로 이동 ```bash cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 ls 숨김 파일 포함, 상세 정보까지 보기 ls -al 2.폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 mkdir로 새로운 폴더 생성 mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) mkdir -p linux_practice/src/utils 만든 폴더로 이동 cd linux_practice 상위 폴더로 이동하기 cd .. 3.파일 만들기 및 내용 확인 빈 파일 만들기 (touch) touch로 빈 파일 생성 cd ~개인경로/linux_practice touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 echo &#34;Hello, Linux!&#34; &gt; hello.txt echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt *echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음 *꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음">
@@ -208,7 +208,8 @@ echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt
 <li>파일 전체 내용을 터미널에 출력</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat hello.txt
-</span></span></code></pre></div><h2 id="vi-편집기-익히기">vi 편집기 익히기</h2>
+</span></span></code></pre></div><p>Markdown</p>
+<h2 id="vi-편집기-익히기">vi 편집기 익히기</h2>
 <ul>
 <li>기본문법</li>
 <li>vi 편집기 : 개발자 필수/ 분석가 옵션/ 기획자, 공부하지 마세요!
@@ -220,34 +221,34 @@ echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt
 <table>
 	<thead>
 			<tr>
-					<th>키</th>
-					<th>동작</th>
+					<th style="text-align: left">키 동작</th>
+					<th style="text-align: left">기능 설명</th>
 			</tr>
 	</thead>
 	<tbody>
 			<tr>
-					<td><code>i</code></td>
-					<td>삽입 모드 진입 (현재 커서 앞)</td>
+					<td style="text-align: left"><strong>i</strong></td>
+					<td style="text-align: left">삽입 모드 진입 (현재 커서 앞)</td>
 			</tr>
 			<tr>
-					<td><code>ESC</code></td>
-					<td>일반 모드로 복귀</td>
+					<td style="text-align: left"><strong>ESC</strong></td>
+					<td style="text-align: left">일반 모드로 복귀</td>
 			</tr>
 			<tr>
-					<td><code>:w</code></td>
-					<td>저장</td>
+					<td style="text-align: left"><strong>:w</strong></td>
+					<td style="text-align: left">내용 저장</td>
 			</tr>
 			<tr>
-					<td><code>:q</code></td>
-					<td>종료</td>
+					<td style="text-align: left"><strong>:q</strong></td>
+					<td style="text-align: left">편집기 종료</td>
 			</tr>
 			<tr>
-					<td><code>:wq</code></td>
-					<td>저장 후 종료</td>
+					<td style="text-align: left"><strong>:wq</strong></td>
+					<td style="text-align: left">저장 후 종료 (가장 많이 씀!)</td>
 			</tr>
 			<tr>
-					<td><code>:q!</code></td>
-					<td>저장 없이 강제 종료</td>
+					<td style="text-align: left"><strong>:q!</strong></td>
+					<td style="text-align: left">저장 없이 강제 종료</td>
 			</tr>
 	</tbody>
 </table>
