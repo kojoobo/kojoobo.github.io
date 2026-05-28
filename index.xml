@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>kojoobo&#39;s AI Marketing Log🚀</title>
+		<title>Mike&#39;s AI Marketing Log🚀</title>
 		<link>https://example.org/</link>
-		<description>Recent content on kojoobo&#39;s AI Marketing Log🚀</description>
+		<description>Recent content on Mike&#39;s AI Marketing Log🚀</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
+			<lastBuildDate>Wed, 27 May 2026 12:00:00 +0900</lastBuildDate>
+		
 			<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title></title>
+				<title>Blog Post 1_20260527) AI Lessons from 이어드림스쿨</title>
 				<link>https://example.org/posts/first-post/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<pubDate>Wed, 27 May 2026 12:00:00 +0900</pubDate>
 				<guid>https://example.org/posts/first-post/</guid>
-				<description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;title: &amp;ldquo;Blog Post 1_20260527) AI Lessons from 이어드림스쿨&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;date: 2026-05-27T12:00:00+09:00&lt;/p&gt;&#xA;&lt;p&gt;draft: false&lt;/p&gt;&#xA;&lt;p&gt;-&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;Hi everyone, welcome to my blog! 🔥🚀&lt;/p&gt;&#xA;&lt;p&gt;I am a marketer with 11 years of professional experience in the industry. Throughout my career, I have witnessed how fast the digital landscape changes, but recently, I realized something even more profound: **AI is no longer just a tool—it is the future of everything we do.** Driven by this realization and a strong desire to stay ahead of the curve, I decided to take a bold leap. I joined **&amp;ldquo;이어드림스쿨&amp;rdquo; (Eardream School)** to immerse myself in the world of Artificial Intelligence from the ground up. 😊&lt;/p&gt;</description>
+				<description>&lt;p&gt;Hi everyone, welcome to my blog! 🔥🚀&lt;/p&gt;&#xA;&lt;p&gt;I am a marketer with 11 years of professional experience in the industry. Throughout my career, I have witnessed how fast the digital landscape changes, but recently, I realized something even more profound: &lt;em&gt;AI is no longer just a tool—it is the future of everything we do.&lt;/em&gt; Driven by this realization and a strong desire to stay ahead of the curve, I decided to take a bold leap. I joined &lt;em&gt;&amp;ldquo;이어드림스쿨&amp;rdquo; (Eardream School)&lt;/em&gt; to immerse myself in the world of Artificial Intelligence from the ground up. 😊&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
