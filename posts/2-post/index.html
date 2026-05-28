@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Blog Post 2_20260528) AI Lessons from 이어드림스쿨 - Linux Basics | Mike&#39;s AI Marketing Log🚀</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Linux 용어
+현재 위치 확인
+1. 현재 디렉터리 확인
+
+현재 내가 어느 위치에 있는지 절대 경로로 출력
+
+pwd
+C:/Users/sings/OneDrive/Desktop/test
+
+## 바탕화면으로 이동
+- `cd` 명령어로 원하는 디렉터로 이동
+
+```bash
+cd ~/Desktop
+현재 위치의 파일 폴더 목록 보기
+
+현재 디렉터리 안의 파일과 폴더를 나열
+
+ls
+
+숨김 파일 포함, 상세 정보까지 보기
+
+ls -al
+2.폴더(디렉터리) 만들기 및 이동
+test 폴더 안에서 새로운 폴더 만들기
+
+mkdir로 새로운 폴더 생성
+
+mkdir linux_practice
+
+중첩 폴더를 한번에 만들기 (-p 옵션)
+
+mkdir -p linux_practice/src/utils
+만든 폴더로 이동
+cd linux_practice
+상위 폴더로 이동하기
+cd ..
+3.파일 만들기 및 내용 확인
+빈 파일 만들기 (touch)
+
+touch로 빈 파일 생성
+
+cd ~개인경로/linux_practice
+touch hello.txt
+
+&gt;는 덮어쓰기, &gt;&gt;는 내용 추가
+
+echo &#34;Hello, Linux!&#34; &gt; hello.txt
+echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt
+*echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음
+*꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음">
+    <meta name="generator" content="Hugo 0.162.0">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.fe543ec729f225f1a33caed07775c832a416476900d82ba51765d6ead9de6758.css" integrity="sha256-/lQ&#43;xynyJfGjPK7Qd3XIMqQWR2kA2CulF2XW6tneZ1g=" crossorigin="anonymous">
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://example.org/posts/2-post/">
+    
+
+    
+    
+    <meta property="og:url" content="https://example.org/posts/2-post/">
+	<meta property="og:site_name" content="Mike&#39;s AI Marketing Log🚀">
+	<meta property="og:title" content="Blog Post 2_20260528) AI Lessons from 이어드림스쿨 - Linux Basics">
+	<meta property="og:description" content="Linux 용어 현재 위치 확인 1. 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 pwd C:/Users/sings/OneDrive/Desktop/test ## 바탕화면으로 이동 - `cd` 명령어로 원하는 디렉터로 이동 ```bash cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 ls 숨김 파일 포함, 상세 정보까지 보기 ls -al 2.폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 mkdir로 새로운 폴더 생성 mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) mkdir -p linux_practice/src/utils 만든 폴더로 이동 cd linux_practice 상위 폴더로 이동하기 cd .. 3.파일 만들기 및 내용 확인 빈 파일 만들기 (touch) touch로 빈 파일 생성 cd ~개인경로/linux_practice touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 echo &#34;Hello, Linux!&#34; &gt; hello.txt echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt *echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음 *꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-05-28T15:00:00+09:00">
+		<meta property="article:modified_time" content="2026-05-28T15:00:00+09:00">
+
+	<meta itemprop="name" content="Blog Post 2_20260528) AI Lessons from 이어드림스쿨 - Linux Basics">
+	<meta itemprop="description" content="Linux 용어 현재 위치 확인 1. 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 pwd C:/Users/sings/OneDrive/Desktop/test ## 바탕화면으로 이동 - `cd` 명령어로 원하는 디렉터로 이동 ```bash cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 ls 숨김 파일 포함, 상세 정보까지 보기 ls -al 2.폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 mkdir로 새로운 폴더 생성 mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) mkdir -p linux_practice/src/utils 만든 폴더로 이동 cd linux_practice 상위 폴더로 이동하기 cd .. 3.파일 만들기 및 내용 확인 빈 파일 만들기 (touch) touch로 빈 파일 생성 cd ~개인경로/linux_practice touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 echo &#34;Hello, Linux!&#34; &gt; hello.txt echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt *echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음 *꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음">
+	<meta itemprop="datePublished" content="2026-05-28T15:00:00+09:00">
+	<meta itemprop="dateModified" content="2026-05-28T15:00:00+09:00">
+	<meta itemprop="wordCount" content="275">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Blog Post 2_20260528) AI Lessons from 이어드림스쿨 - Linux Basics">
+	<meta name="twitter:description" content="Linux 용어 현재 위치 확인 1. 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 pwd C:/Users/sings/OneDrive/Desktop/test ## 바탕화면으로 이동 - `cd` 명령어로 원하는 디렉터로 이동 ```bash cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 ls 숨김 파일 포함, 상세 정보까지 보기 ls -al 2.폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 mkdir로 새로운 폴더 생성 mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) mkdir -p linux_practice/src/utils 만든 폴더로 이동 cd linux_practice 상위 폴더로 이동하기 cd .. 3.파일 만들기 및 내용 확인 빈 파일 만들기 (touch) touch로 빈 파일 생성 cd ~개인경로/linux_practice touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 echo &#34;Hello, Linux!&#34; &gt; hello.txt echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt *echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음 *꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음">
+
+      
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production is-page is-page page-2-post">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Mike&#39;s AI Marketing Log🚀
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-2-post flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">
+    Posts
+</aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Blog Post 2_20260528) AI Lessons from 이어드림스쿨 - Linux Basics</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-05-28T15:00:00+09:00">May 28, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h1 id="linux-용어">Linux 용어</h1>
+<h1 id="현재-위치-확인">현재 위치 확인</h1>
+<h2 id="1-현재-디렉터리-확인">1. 현재 디렉터리 확인</h2>
+<ul>
+<li>현재 내가 어느 위치에 있는지 절대 경로로 출력</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pwd
+</span></span><span style="display:flex;"><span>C:/Users/sings/OneDrive/Desktop/test
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 바탕화면으로 이동</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#e6db74">`</span>cd<span style="color:#e6db74">`</span> 명령어로 원하는 디렉터로 이동
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">```</span>bash
+</span></span><span style="display:flex;"><span>cd ~/Desktop
+</span></span></code></pre></div><h2 id="현재-위치의-파일-폴더-목록-보기">현재 위치의 파일 폴더 목록 보기</h2>
+<ul>
+<li>현재 디렉터리 안의 파일과 폴더를 나열</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls
+</span></span></code></pre></div><ul>
+<li>숨김 파일 포함, 상세 정보까지 보기</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls -al
+</span></span></code></pre></div><h1 id="2폴더디렉터리-만들기-및-이동">2.폴더(디렉터리) 만들기 및 이동</h1>
+<h2 id="test-폴더-안에서-새로운-폴더-만들기">test 폴더 안에서 새로운 폴더 만들기</h2>
+<ul>
+<li><code>mkdir</code>로 새로운 폴더 생성</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir linux_practice
+</span></span></code></pre></div><ul>
+<li>중첩 폴더를 한번에 만들기 (<code>-p</code> 옵션)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p linux_practice/src/utils
+</span></span></code></pre></div><h2 id="만든-폴더로-이동">만든 폴더로 이동</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd linux_practice
+</span></span></code></pre></div><h2 id="상위-폴더로-이동하기">상위 폴더로 이동하기</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ..
+</span></span></code></pre></div><h1 id="3파일-만들기-및-내용-확인">3.파일 만들기 및 내용 확인</h1>
+<h2 id="빈-파일-만들기-touch">빈 파일 만들기 (touch)</h2>
+<ul>
+<li><code>touch</code>로 빈 파일 생성</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~개인경로/linux_practice
+</span></span><span style="display:flex;"><span>touch hello.txt
+</span></span></code></pre></div><ul>
+<li><code>&gt;</code>는 덮어쓰기, <code>&gt;&gt;</code>는 내용 추가</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Hello, Linux!&#34;</span> &gt; hello.txt
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;두 번째 줄 추가&#34;</span> &gt;&gt; hello.txt
+</span></span></code></pre></div><p>*echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음
+<!-- raw HTML omitted -->*꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음</p>
+<h2 id="파일-내용-확인">파일 내용 확인</h2>
+<ul>
+<li>파일 전체 내용을 터미널에 출력</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat hello.txt
+</span></span></code></pre></div><h2 id="vi-편집기-익히기">vi 편집기 익히기</h2>
+<ul>
+<li>기본문법</li>
+<li>vi 편집기 : 개발자 필수/ 분석가 옵션/ 기획자, 공부하지 마세요!
+<ul>
+<li>개발자의 경우: 앞으로 markdown 작업할 때, vi 편집기로 하는 것 추천</li>
+</ul>
+</li>
+</ul>
+<table>
+	<thead>
+			<tr>
+					<th>키</th>
+					<th>동작</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>i</code></td>
+					<td>삽입 모드 진입 (현재 커서 앞)</td>
+			</tr>
+			<tr>
+					<td><code>ESC</code></td>
+					<td>일반 모드로 복귀</td>
+			</tr>
+			<tr>
+					<td><code>:w</code></td>
+					<td>저장</td>
+			</tr>
+			<tr>
+					<td><code>:q</code></td>
+					<td>종료</td>
+			</tr>
+			<tr>
+					<td><code>:wq</code></td>
+					<td>저장 후 종료</td>
+			</tr>
+			<tr>
+					<td><code>:q!</code></td>
+					<td>저장 없이 강제 종료</td>
+			</tr>
+	</tbody>
+</table>
+<h1 id="5-파일-폴더-복사-이동-삭제">5. 파일 폴더 복사, 이동, 삭제</h1>
+<h2 id="파일-복사-cp">파일 복사 (cp)</h2>
+<ul>
+<li><code>cp 원본 복사본</code> 형식</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp hello.txt/ hello_backup.txt
+</span></span></code></pre></div><ul>
+<li>폴더 전체 복사 (`-r&rsquo; 옵션)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp -r linux_practice/ linux_practice_backup
+</span></span></code></pre></div><h2 id="파일-폴더-이동--이름-변경-mv">파일 폴더 이동 / 이름 변경 (mv)</h2>
+<ul>
+<li>같은 위치에서 이름만 바꾸면 이름 변경</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mv hello_backup.txt hello_copy.txt
+</span></span></code></pre></div><ul>
+<li>과제:</li>
+<li>archive 폴더 생성</li>
+<li>hello_copy.txt 파일을 archive 이동 (mv)</li>
+</ul>
+<h2 id="파일-삭제-rm">파일 삭제 (rm)</h2>
+<ul>
+<li>파일 삭제</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm 파일명
+</span></span></code></pre></div><ul>
+<li>폴더 전체 삭제 (`-r&rsquo; 옵션)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm -r archieve
+</span></span></code></pre></div><ul>
+<li>강제 삭제 `-rf'</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm -rf 폴더/파일/...
+</span></span></code></pre></div><ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://example.org/" >
+    &copy;  Mike's AI Marketing Log🚀 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
+
+
+
