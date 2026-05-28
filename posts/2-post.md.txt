@@ -1,0 +1,133 @@
+---
+title: "Blog Post 2_20260528) AI Lessons from 이어드림스쿨 - Linux Basics"
+date: 2026-05-28T15:00:00+09:00
+draft: false
+---
+
+# Linux 용어
+
+# 현재 위치 확인
+
+## 1. 현재 디렉터리 확인
+- 현재 내가 어느 위치에 있는지 절대 경로로 출력
+
+```bash
+pwd
+C:/Users/sings/OneDrive/Desktop/test
+
+## 바탕화면으로 이동
+- `cd` 명령어로 원하는 디렉터로 이동
+
+```bash
+cd ~/Desktop
+```
+
+## 현재 위치의 파일 폴더 목록 보기
+- 현재 디렉터리 안의 파일과 폴더를 나열
+
+```bash
+ls
+```
+
+- 숨김 파일 포함, 상세 정보까지 보기
+```bash
+ls -al
+```
+
+# 2.폴더(디렉터리) 만들기 및 이동
+## test 폴더 안에서 새로운 폴더 만들기
+- `mkdir`로 새로운 폴더 생성
+```bash
+mkdir linux_practice
+```
+
+- 중첩 폴더를 한번에 만들기 (`-p` 옵션)
+```bash
+mkdir -p linux_practice/src/utils
+```
+
+## 만든 폴더로 이동
+
+```bash
+cd linux_practice
+```
+
+## 상위 폴더로 이동하기
+```bash
+cd ..
+```
+
+# 3.파일 만들기 및 내용 확인
+## 빈 파일 만들기 (touch)
+- `touch`로 빈 파일 생성
+
+```bash
+cd ~개인경로/linux_practice
+touch hello.txt
+```
+
+- `>`는 덮어쓰기, `>>`는 내용 추가
+```bash
+echo "Hello, Linux!" > hello.txt
+echo "두 번째 줄 추가" >> hello.txt
+```
+*echo는 외치는 것. 꺽새를 사용하지 않으면 그냥 terminal에서 응답만 받음 
+<br>*꺽새(덮어씌우기)는 매우 강력한 툴이라, 신중해야함. 모든 데이터를 덮어씌어서 사라지게 할 수 있음
+
+## 파일 내용 확인
+- 파일 전체 내용을 터미널에 출력
+```bash
+cat hello.txt
+```
+
+## vi 편집기 익히기
+- 기본문법
+- vi 편집기 : 개발자 필수/ 분석가 옵션/ 기획자, 공부하지 마세요! 
+    + 개발자의 경우: 앞으로 markdown 작업할 때, vi 편집기로 하는 것 추천
+
+| 키 | 동작 |
+|---|---|
+| `i` | 삽입 모드 진입 (현재 커서 앞) |
+| `ESC` | 일반 모드로 복귀 |
+| `:w` | 저장 |
+| `:q` | 종료 |
+| `:wq` | 저장 후 종료 |
+| `:q!` | 저장 없이 강제 종료 |
+
+# 5. 파일 폴더 복사, 이동, 삭제
+
+## 파일 복사 (cp)
+- `cp 원본 복사본` 형식
+```bash
+cp hello.txt/ hello_backup.txt
+```
+
+- 폴더 전체 복사 (`-r' 옵션)
+
+```bash
+cp -r linux_practice/ linux_practice_backup
+```
+## 파일 폴더 이동 / 이름 변경 (mv)
+- 같은 위치에서 이름만 바꾸면 이름 변경
+```bash
+mv hello_backup.txt hello_copy.txt
+```
+
+- 과제:
+- archive 폴더 생성
+- hello_copy.txt 파일을 archive 이동 (mv)
+
+## 파일 삭제 (rm)
+- 파일 삭제
+```bash
+rm 파일명
+```
+- 폴더 전체 삭제 (`-r' 옵션)
+```bash
+rm -r archieve
+```
+
+- 강제 삭제 `-rf'
+```bash
+rm -rf 폴더/파일/...
+```
